@@ -4,12 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
         <div class="container">
-            <img src="" alt="Logo">
+            <a href="#"><img src="images/logo.png" alt="Logo"></a>
             <nav class="homepage-nav">
                 <ul>
                     <li><a href="#">Home</a></li>
@@ -18,146 +21,214 @@
                     <li><a href="#">Sign in</a></li>
                 </ul>
             </nav>
-            <a href="#">Sell Something</a>
+            <a class="sell-something" href="#">Sell Something</a>
         </div>
     </header>
     <main>
-        <div class="container">
-            <aside class="aside-location">
-                <h2>Location</h2>
+        <div class="container">  
+        <section class="aside-search">
+            <aside>
+                <form action="">
+                    <section class="section-location">
+                        <label for="location">Location</label>
+                        <select name="location" id="">
+                            <option value="kenya">All Kenya</option>
+                            <option value="tbilisi">Tbilisi</option>
+                        </select>
+                    </section>
+                    <section class="section-checkbox">
+                        <label class="property-header" for="">Property</label>
+                        <div class="form-property-radio">
+                            <input type="checkbox" id="house-apartments-for-rent"/>
+                            <label for="house-apartments-for-rent" name="house-apartments-for-rent">House & Apartments for rent </label>
+                        </div>
+                        <div class="form-property-radio">
+                            <input type="checkbox"id="house-apartments-for-sale"/> 
+                            <label for="house-apartments-for-sale" name="house-apartments-for-sale">House & Apartments for sale </label>
+                        </div>
+                        <div class="form-property-radio">
+                            <input type="checkbox" id="land-plots-for-rent">
+                            <label for="land-plots-for-rent">Land & Plots for Rent</label>
+                        </div>
+                        <div class="form-property-radio">
+                            <input type="checkbox" id="land-plots-for-sale">
+                            <label for="land-plots-for-sale">Land & Plots for Sale</label>
+                        </div>
+                        <div class="form-property-radio">
+                            <input type="checkbox"id="commercial-property-for-rent">
+                            <label for="commercial-property-for-rent">Commercial Property for Rent</label>
+                        </div>
+                        <div class="form-property-radio">
+                            <input type="checkbox" id="commercial-property-for-sale">
+                            <label for="commercial-property-for-sale">Commercial Property for Sale</label>
+                        </div> 
+                        <div class="form-property-radio">
+                            <input type="checkbox" id="event-centres-venues-worksta">
+                            <label for="event-centres-venues-worksta">Event Centres, Venues & Worksta </label>
+                        </div>
+                        <div class="form-property-radio">
+                            <input type="checkbox"id="short-let-property">
+                            <label for="short-let-property">Short Let Property</label>
+                        </div>
+                        <div class="form-property-radio">
+                            <input type="checkbox"id="land-land-plots-for-sale">
+                            <label for="land-land-plots-for-sale">Land & Plots for Sale</label>
+                        </div>  
+                        <div class="form-property-radio">
+                            <input type="checkbox" id="commercial-property-for-rent">
+                            <label for="commercial-property-for-rent">commercial Property for Rent </label>
+                        </div>  
+                    </section>
+                    <section class="section-checkbox">
+                        <label for="">Price range</label>
+                        <div class="form-price-range">
+                            <input type="checkbox" id="under-13k">
+                            <label for="under-13k" name="under-13k">Under 13 k</label>
+                        </div>
+                        <div class="form-price-range">
+                            <input type="checkbox"id="13-160k">
+                            <label for="13-160k" name="13-160k">13 - 160 K</label>
+                        </div>
+                        <div class="form-price-range">
+                            <input type="checkbox"id="160k-6m">
+                            <label for="160k-6m" name="160k-6m">160 K - 6 m </label>
+                        </div>
+                        <div class="form-price-range">
+                            <input type="checkbox"id="6-55m">
+                            <label for="6-55m" name="6-55m">6 - 55 M </label>
+                        </div>
+                        <div class="form-price-range">
+                            <input type="checkbox"id="6-55m">
+                            <label for="6-55m" name="6-55m">6 - 55 M </label>
+                        </div>
+                    </section>
+                </form>
             </aside>
             <section class="section-search">
-                <h1>Find the house you want easily</h1>
-                <p>Buy, sell, rent or lease on just one platform</p>
-                <form action="">
-                    <input type="search" id="search" name="search" placeholder="Search...">
-                </form>
-            </section>
-            <section class="section-treading-ads">
-                <div class="container">
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
-                    <article>
-                        <img src="" alt="image">
-                        <h3>200 Acres Parcel for Sale in Namanga</h3>
-                        <p>Kajiado, Namanga</p>
-                        <p>
-                            <span>1450$</span>
-                            / Month
-                        </p>
-                        <div class="article-line"></div>
-                        <div class="article-property-details">
-                            <p>5 Bedroom</p>
-                            <p>3 bathroom</p>
-                            <p>450 Sq.m</p>
-                        </div>
-                    </article>
+                <div class="image-text">
+                    <h1>Find the house you want easily</h1>
+                    <p>Buy, sell, rent or lease on just one platform</p>
+                    <form action="">
+                        <input type="search" id="search" name="search" placeholder="Search...">
+                    </form>
                 </div>
             </section>
-        </div>
+        </section>
+        <section class="section-treading-ads">
+                 <article>
+                    <img src="images/grid-first-pictre.jpg" alt="image1">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/grid-second-picture.jpg" alt="image2">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/grid-third-picture.jpg" alt="image3">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/grid-fourth-picture.jpg" alt="image4">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/grid-six.jpg" alt="image6">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/grid-seven.jpg" alt="image7">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/grid-eight.jpg" alt="image8">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+                <article>
+                    <img src="images/grid-nine.jpg" alt="image9">
+                    <h3>200 Acres Parcel for Sale in Namanga</h3>
+                    <p>Kajiado, Namanga</p>
+                    <p class="article-p-flex-end">
+                        1450$
+                    </p>
+                    <div class="article-line"></div>
+                    <div class="article-property-details">
+                        <p>5 Bedroom</p>
+                        <p>3 bathroom</p>
+                        <p>450 Sq.m</p>
+                    </div>
+                </article>
+        </section>
+    </div>
     </main>
     <footer>
         <div class="container">
@@ -181,10 +252,13 @@
                 </nav>
             </div>
             <div class="footer-line"></div>
-            <p class="copyright-footer">
-                © 2022 Robert.co.ke Gibraltar
-            </p>
+            <div class="footer-below-line">
+                <p class="copyright-footer">
+                    © 2022 Robert.co.ke Gibraltar
+                </p>
+            </div>
         </div>
     </footer>
 </body>
 </html>
+
