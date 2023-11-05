@@ -366,6 +366,7 @@ footer ul li a{
     font-size: 36px;
     font-weight: 600;
     color: #29B24E;
+    padding-left: 44px;
 }
 .aside-footer p:first-child::after{
     content: "/Month";
