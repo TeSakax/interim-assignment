@@ -9,8 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
+<body class="main-body">
+    <header class="main-header">
         <div class="container">
             <a href="#"><img src="images/logo.png" alt="Logo"></a>
             <nav class="homepage-nav">
@@ -22,6 +22,7 @@
                 </ul>
             </nav>
             <a class="sell-something" href="#">Sell Something</a>
+            <div class="header-search"><a href="#"><img src="images/search-normal.svg" alt=""></a></div>
         </div>
     </header>
     <main>
@@ -30,14 +31,14 @@
             <aside>
                 <form action="">
                     <section class="section-location">
-                        <label for="location">Location</label>
+                        <label for="location"><h1>Location</h1></label>
                         <select name="location" id="">
                             <option value="kenya">All Kenya</option>
                             <option value="tbilisi">Tbilisi</option>
                         </select>
                     </section>
-                    <section class="section-checkbox">
-                        <label class="property-header" for="">Property</label>
+                    <section class="section-checkbox-property">
+                        <label class="property-header" for=""><h1>Property</h1></label>
                         <div class="form-property-radio">
                             <input type="checkbox" id="house-apartments-for-rent"/>
                             <label for="house-apartments-for-rent" name="house-apartments-for-rent">House & Apartments for rent </label>
@@ -64,7 +65,7 @@
                         </div> 
                         <div class="form-property-radio">
                             <input type="checkbox" id="event-centres-venues-worksta">
-                            <label for="event-centres-venues-worksta">Event Centres, Venues & Worksta </label>
+                            <label for="event-centres-venues-worksta">Event Centres, Venues & Worksta</label>
                         </div>
                         <div class="form-property-radio">
                             <input type="checkbox"id="short-let-property">
@@ -79,8 +80,8 @@
                             <label for="commercial-property-for-rent">commercial Property for Rent </label>
                         </div>  
                     </section>
-                    <section class="section-checkbox">
-                        <label for="">Price range</label>
+                    <section class="section-checkbox-price">
+                        <label class="price-header" for=""><h1>Price range</h1></label>
                         <div class="form-price-range">
                             <input type="checkbox" id="under-13k">
                             <label for="under-13k" name="under-13k">Under 13 k</label>
@@ -114,11 +115,17 @@
                 </div>
             </section>
         </section>
+        <h1 class="treading-header">Trending ads</h1>
         <section class="section-treading-ads">
-                 <article>
+                <article>
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                   <a href="home.html">
                     <img src="images/grid-first-pictre.jpg" alt="image1">
+                   </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -130,9 +137,14 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/grid-second-picture.jpg" alt="image2">
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                    <a href="home.html">
+                        <img src="images/grid-second-picture.jpg" alt="image2">
+                    </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -144,9 +156,14 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/grid-third-picture.jpg" alt="image3">
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                    <a href="home.html">
+                        <img src="images/grid-third-picture.jpg" alt="image3">
+                    </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -158,9 +175,14 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/grid-fourth-picture.jpg" alt="image4">
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                    <a href="home.html">
+                        <img src="images/grid-fourth-picture.jpg" alt="image4">
+                    </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -172,9 +194,14 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/grid-six.jpg" alt="image6">
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                    <a href="home.html">
+                        <img src="images/grid-six.jpg" alt="image6">
+                    </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -186,9 +213,14 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/grid-seven.jpg" alt="image7">
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                    <a href="home.html">
+                        <img src="images/grid-seven.jpg" alt="image7">
+                    </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -200,9 +232,14 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/grid-eight.jpg" alt="image8">
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                    <a href="home.html">
+                        <img src="images/grid-eight.jpg" alt="image8">
+                    </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -214,9 +251,14 @@
                     </div>
                 </article>
                 <article>
-                    <img src="images/grid-nine.jpg" alt="image9">
+                    <p class="vip">
+                        VIP TOP+
+                    </p>
+                    <a href="home.html">
+                        <img src="images/grid-nine.jpg" alt="image9">
+                    </a>
                     <h3>200 Acres Parcel for Sale in Namanga</h3>
-                    <p>Kajiado, Namanga</p>
+                    <p class="kajiado">Kajiado, Namanga</p>
                     <p class="article-p-flex-end">
                         1450$
                     </p>
@@ -241,7 +283,7 @@
                         <li><a href="#">Sign in</a></li>
                     </ul>
                 </nav>
-                <p>Support@Roberts.com</p>
+                <p class="footer-p-support">Support@Roberts.com</p>
                 <nav class="social-media-nav">
                     <ul>
                         <li><a href="#">Facebook</a></li>
