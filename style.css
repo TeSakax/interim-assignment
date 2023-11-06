@@ -164,6 +164,13 @@ aside form input{
     gap: 1rem 0;
     position: relative;
 }
+.section-treading-ads article a img{
+    border-radius: 24px;
+   width: 100%;
+max-height: 202px;
+   object-fit: cover;
+
+}
 .section-treading-ads .vip{
     position: absolute;
     left: 32px;
@@ -243,7 +250,7 @@ footer ul li a{
 }
 .aside-image{
     border-radius: 20px;
-    background-image: url("images/222222222.jpeg");
+    background-image: url("images/house3-4-6.jpeg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -408,6 +415,9 @@ footer ul li a{
 }
 .similar-ads .container article img{
     border-radius: 24px;
+    width: 363px;
+    height: 202px;
+    object-fit: cover;
 
 }
 .similar-ads .container article .vip{
@@ -472,15 +482,30 @@ footer ul li a{
     .footer-p-support{
         display: none;
      }
-     .home-body{
-        display: flex;
-        flex-direction: column;
-     }
      .home-body header{
         display: none;
      }
      .home-main-section{
-        
+        display: flex;
+     }
+
+     .home-main-section .aside-footer{
+        display: flex;
+        flex-direction: column;
+     }  
+     .aside-footer p{
+        padding-right: 10rem;
+        padding-bottom: 3rem;
+     }
+   
+ .sent-message{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    text-align: center;
+ }
+     .similar-ads article:nth-child(1n +2){
+        display: none;
      }
   }
 
